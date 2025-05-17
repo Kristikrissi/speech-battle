@@ -1,0 +1,58 @@
+[
+  {
+    "text": "Интонация важна!",
+    "category": "Тренировочная",
+    "difficulty": 2,
+    "intonationHint": "С ударением на первое слово",
+    "baseDamage": 5
+  },
+  {
+    "text": "Говори четко и ясно",
+    "category": "Тренировочная",
+    "difficulty": 2,
+    "intonationHint": "Медленно и отчетливо",
+    "baseDamage": 5
+  },
+  {
+    "text": "Повышай и понижай голос",
+    "category": "Тренировочная",
+    "difficulty": 3,
+    "intonationHint": "С изменением высоты голоса",
+    "baseDamage": 8
+  },
+  {
+    "text": "Задавай вопросы правильно?",
+    "category": "Тренировочная",
+    "difficulty": 2,
+    "intonationHint": "С повышением интонации в конце",
+    "baseDamage": 5
+  },
+  {
+    "text": "Делай паузы между словами",
+    "category": "Тренировочная",
+    "difficulty": 2,
+    "intonationHint": "С четкими паузами",
+    "baseDamage": 5
+  },
+  {
+    "text": "Выделяй важные слова",
+    "category": "Тренировочная",
+    "difficulty": 3,
+    "intonationHint": "С акцентом на 'важные'",
+    "baseDamage": 8
+  },
+  {
+    "text": "Говори с уверенностью!",
+    "category": "Тренировочная",
+    "difficulty": 2,
+    "intonationHint": "Твердо и решительно",
+    "baseDamage": 5
+  },
+  {
+    "text": "Это утверждение, а не вопрос.",
+    "category": "Тренировочная",
+    "difficulty": 3,
+    "intonationHint": "С понижением интонации в конце",
+    "baseDamage": 8
+  }
+]

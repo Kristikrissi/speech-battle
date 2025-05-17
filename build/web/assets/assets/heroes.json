@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "name": "Воин Слова",
+    "imageUrl": "assets/images/warrior.png",
+    "uniquePhrases": [
+      "Я сражаюсь словами!",
+      "Мои фразы - мое оружие!",
+      "Готовься к словесной атаке!"
+    ],
+    "power": {
+      "name": "Словесный удар",
+      "description": "Увеличивает урон на 30%",
+      "type": "damageBoost",
+      "cooldown": 3
+    },
+    "level": 1,
+    "experience": 0
+  },
+  {
+    "id": "2",
+    "name": "Мастер Интонации",
+    "imageUrl": "assets/images/master.png",
+    "uniquePhrases": [
+      "Интонация - ключ к победе!",
+      "Слушай мой голос!",
+      "Почувствуй силу интонации!"
+    ],
+    "power": {
+      "name": "Идеальный тон",
+      "description": "Повышает точность на 20%",
+      "type": "accuracyBoost",
+      "cooldown": 2
+    },
+    "level": 1,
+    "experience": 0
+  },
+  {
+    "id": "3",
+    "name": "Защитник Речи",
+    "imageUrl": "assets/images/defender.png",
+    "uniquePhrases": [
+      "Моя речь - моя защита!",
+      "Слова могут быть щитом!",
+      "Я отражу любую атаку!"
+    ],
+    "power": {
+      "name": "Словесный щит",
+      "description": "Снижает урон от противника на 25%",
+      "type": "defenseBoost",
+      "cooldown": 3
+    },
+    "level": 1,
+    "experience": 0
+  }
+]

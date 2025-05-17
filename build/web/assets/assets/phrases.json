@@ -1,0 +1,308 @@
+[
+  {
+    "text": "Готов к приключению?",
+    "category": "Обычная",
+    "baseDamage": 10,
+    "intonationHint": "Воодушевленно"
+  },
+  {
+    "text": "Знания - сила!",
+    "category": "Редкая",
+    "baseDamage": 15,
+    "intonationHint": "Энергично"
+  },
+  {
+    "text": "Я могу всё преодолеть!",
+    "category": "Эпическая",
+    "baseDamage": 20,
+    "intonationHint": "Уверенно"
+  },
+  {
+    "text": "Мой ум острее любого меча!",
+    "category": "Редкая",
+    "baseDamage": 15,
+    "intonationHint": "Гордо"
+  },
+  {
+    "text": "Сегодня отличный день для новых открытий!",
+    "category": "Обычная",
+    "baseDamage": 12,
+    "intonationHint": "Оптимистично"
+  },
+  {
+    "text": "Твоё будущее полно возможностей!",
+    "category": "Эпическая",
+    "baseDamage": 18,
+    "intonationHint": "Вдохновляюще"
+  },
+  {
+    "text": "За дружбу и приключения!",
+    "category": "Редкая",
+    "baseDamage": 14,
+    "intonationHint": "Торжественно"
+  },
+  {
+    "text": "Вместе мы сможем преодолеть любые препятствия!",
+    "category": "Легендарная",
+    "baseDamage": 25,
+    "intonationHint": "Воодушевленно"
+  },
+  {
+    "text": "Учись с удовольствием!",
+    "category": "Обычная",
+    "baseDamage": 10,
+    "intonationHint": "Дружелюбно"
+  },
+  {
+    "text": "Я пришёл, я увидел, я научился!",
+    "category": "Эпическая",
+    "baseDamage": 20,
+    "intonationHint": "Триумфально"
+  },
+  {
+    "text": "Мои знания растут с каждым днём!",
+    "category": "Редкая",
+    "baseDamage": 16,
+    "intonationHint": "Гордо"
+  },
+  {
+    "text": "Готовься к новым открытиям!",
+    "category": "Обычная",
+    "baseDamage": 11,
+    "intonationHint": "Загадочно"
+  },
+  {
+    "text": "Это будет весело!",
+    "category": "Обычная",
+    "baseDamage": 8,
+    "intonationHint": "Радостно"
+  },
+  {
+    "text": "Ты не первый, кто открывает этот секрет!",
+    "category": "Редкая",
+    "baseDamage": 17,
+    "intonationHint": "Таинственно"
+  },
+  {
+    "text": "Моё имя войдёт в историю великих открытий!",
+    "category": "Легендарная",
+    "baseDamage": 22,
+    "intonationHint": "Мечтательно"
+  },
+  {
+    "text": "Вставай и действуй!",
+    "category": "Обычная",
+    "baseDamage": 9,
+    "intonationHint": "Мотивирующе"
+  },
+  {
+    "text": "Моя фантазия безгранична!",
+    "category": "Эпическая",
+    "baseDamage": 19,
+    "intonationHint": "Вдохновенно"
+  },
+  {
+    "text": "Твои идеи так же важны, как и мои!",
+    "category": "Редкая",
+    "baseDamage": 14,
+    "intonationHint": "Уважительно"
+  },
+  {
+    "text": "Сегодня ты узнаешь что-то удивительное!",
+    "category": "Эпическая",
+    "baseDamage": 21,
+    "intonationHint": "Загадочно"
+  },
+  {
+    "text": "Приключение только начинается!",
+    "category": "Обычная",
+    "baseDamage": 10,
+    "intonationHint": "Воодушевленно"
+  },
+  {
+    "text": "Я решу любую задачу!",
+    "category": "Редкая",
+    "baseDamage": 16,
+    "intonationHint": "Решительно"
+  },
+  {
+    "text": "Мои мысли яснее ясного дня!",
+    "category": "Эпическая",
+    "baseDamage": 18,
+    "intonationHint": "Уверенно"
+  },
+  {
+    "text": "Ты можешь достичь всего, что задумал!",
+    "category": "Редкая",
+    "baseDamage": 15,
+    "intonationHint": "Вдохновляюще"
+  },
+  {
+    "text": "Каждая ошибка - шаг к успеху!",
+    "category": "Редкая",
+    "baseDamage": 14,
+    "intonationHint": "Мудро"
+  },
+  {
+    "text": "Я верю в свои силы!",
+    "category": "Эпическая",
+    "baseDamage": 19,
+    "intonationHint": "Уверенно"
+  },
+  {
+    "text": "Сегодня начинается твоя история успеха!",
+    "category": "Редкая",
+    "baseDamage": 15,
+    "intonationHint": "Вдохновляюще"
+  },
+  {
+    "text": "Мой голос - мой инструмент!",
+    "category": "Редкая",
+    "baseDamage": 16,
+    "intonationHint": "Звонко"
+  },
+  {
+    "text": "Ты удивишься своим возможностям!",
+    "category": "Эпическая",
+    "baseDamage": 20,
+    "intonationHint": "Воодушевленно"
+  },
+  {
+    "text": "Мои идеи изменят мир к лучшему!",
+    "category": "Редкая",
+    "baseDamage": 17,
+    "intonationHint": "Мечтательно"
+  },
+  {
+    "text": "О наших приключениях будут слагать легенды!",
+    "category": "Легендарная",
+    "baseDamage": 24,
+    "intonationHint": "Торжественно"
+  },
+  {
+    "text": "Время открытий настало!",
+    "category": "Эпическая",
+    "baseDamage": 19,
+    "intonationHint": "Решительно"
+  },
+  {
+    "text": "Твоя смелость вдохновляет!",
+    "category": "Редкая",
+    "baseDamage": 16,
+    "intonationHint": "Восхищенно"
+  },
+  {
+    "text": "Мой дух полон энтузиазма!",
+    "category": "Редкая",
+    "baseDamage": 15,
+    "intonationHint": "Энергично"
+  },
+  {
+    "text": "Ты встретил настоящего друга!",
+    "category": "Обычная",
+    "baseDamage": 11,
+    "intonationHint": "Дружелюбно"
+  },
+  {
+    "text": "Сегодня я напишу новую главу своей истории!",
+    "category": "Эпическая",
+    "baseDamage": 20,
+    "intonationHint": "Решительно"
+  },
+  {
+    "text": "Мои друзья придают мне силу!",
+    "category": "Редкая",
+    "baseDamage": 16,
+    "intonationHint": "Благодарно"
+  },
+  {
+    "text": "Твои идеи просто великолепны!",
+    "category": "Обычная",
+    "baseDamage": 10,
+    "intonationHint": "Восхищенно"
+  },
+  {
+    "text": "Я вижу в тебе огромный потенциал!",
+    "category": "Редкая",
+    "baseDamage": 15,
+    "intonationHint": "Проницательно"
+  },
+  {
+    "text": "Мой путь освещён знаниями!",
+    "category": "Эпическая",
+    "baseDamage": 18,
+    "intonationHint": "Вдохновенно"
+  },
+  {
+    "text": "Даже звёзды не предел для наших мечтаний!",
+    "category": "Легендарная",
+    "baseDamage": 23,
+    "intonationHint": "Мечтательно"
+  },
+  {
+    "text": "Ты сильнее, чем думаешь!",
+    "category": "Обычная",
+    "baseDamage": 9,
+    "intonationHint": "Поддерживающе"
+  },
+  {
+    "text": "Мой ум - моё сильнейшее оружие!",
+    "category": "Редкая",
+    "baseDamage": 16,
+    "intonationHint": "Гордо"
+  },
+  {
+    "text": "Сегодня я покажу тебе чудеса науки!",
+    "category": "Эпическая",
+    "baseDamage": 19,
+    "intonationHint": "Увлеченно"
+  },
+  {
+    "text": "Наша встреча изменит мир к лучшему!",
+    "category": "Легендарная",
+    "baseDamage": 24,
+    "intonationHint": "Торжественно"
+  },
+  {
+    "text": "Я учусь на своих ошибках!",
+    "category": "Обычная",
+    "baseDamage": 12,
+    "intonationHint": "Задумчиво"
+  },
+  {
+    "text": "Мои мечты становятся реальностью!",
+    "category": "Эпическая",
+    "baseDamage": 21,
+    "intonationHint": "Вдохновенно"
+  },
+  {
+    "text": "Ты достоин всего самого лучшего!",
+    "category": "Редкая",
+    "baseDamage": 14,
+    "intonationHint": "Искренне"
+  },
+  {
+    "text": "Я вижу тысячу возможностей впереди!",
+    "category": "Эпическая",
+    "baseDamage": 20,
+    "intonationHint": "Оптимистично"
+  },
+  {
+    "text": "Мой энтузиазм заразителен!",
+    "category": "Редкая",
+    "baseDamage": 17,
+    "intonationHint": "Энергично"
+  },
+  {
+    "text": "Сегодня ты откроешь новые горизонты!",
+    "category": "Эпическая",
+    "baseDamage": 19,
+    "intonationHint": "Вдохновляюще"
+  },
+  {
+    "text": "Я - воплощение твоих лучших надежд!",
+    "category": "Легендарная",
+    "baseDamage": 25,
+    "intonationHint": "Воодушевленно"
+  }
+]

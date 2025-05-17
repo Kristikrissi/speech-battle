@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "name": "Начало пути",
+    "description": "Ваш первый шаг в мире речевых битв",
+    "boss": {
+      "name": "Новичок Нил",
+      "imageUrl": "assets/images/novice.png",
+      "level": 1,
+      "difficultyMultiplier": 0.8,
+      "phrases": [
+        "Я только учусь!",
+        "Это мой первый бой!",
+        "Не судите строго!"
+      ]
+    },
+    "availableCards": [
+      {
+        "text": "Привет, мир!",
+        "category": "Обычная",
+        "difficulty": 1,
+        "intonationHint": "Радостно",
+        "baseDamage": 5
+      },
+      {
+        "text": "Как дела?",
+        "category": "Обычная",
+        "difficulty": 1,
+        "intonationHint": "Вопросительно",
+        "baseDamage": 5
+      },
+      {
+        "text": "Меня зовут...",
+        "category": "Обычная",
+        "difficulty": 1,
+        "intonationHint": "Уверенно",
+        "baseDamage": 5
+      },
+      {
+        "text": "Готов к приключению?",
+        "category": "Обычная",
+        "difficulty": 1,
+        "intonationHint": "Воодушевленно",
+        "baseDamage": 10
+      },
+      {
+        "text": "Это будет весело!",
+        "category": "Обычная",
+        "difficulty": 1,
+        "intonationHint": "Радостно",
+        "baseDamage": 8
+      },
+      {
+        "text": "Учись с удовольствием!",
+        "category": "Обычная",
+        "difficulty": 1,
+        "intonationHint": "Дружелюбно",
+        "baseDamage": 10
+      },
+      {
+        "text": "Вставай и действуй!",
+        "category": "Обычная",
+        "difficulty": 1,
+        "intonationHint": "Мотивирующе",
+        "baseDamage": 9
+      },
+      {
+        "text": "Приключение только начинается!",
+        "category": "Обычная",
+        "difficulty": 1,
+        "intonationHint": "Воодушевленно",
+        "baseDamage": 10
+      },
+      {
+        "text": "Ты сильнее, чем думаешь!",
+        "category": "Обычная",
+        "difficulty": 1,
+        "intonationHint": "Поддерживающе",
+        "baseDamage": 9
+      },
+      {
+        "text": "Я учусь на своих ошибках!",
+        "category": "Обычная",
+        "difficulty": 1,
+        "intonationHint": "Задумчиво",
+        "baseDamage": 12
+      },
+      {
+        "text": "Ты встретил настоящего друга!",
+        "category": "Обычная",
+        "difficulty": 1,
+        "intonationHint": "Дружелюбно",
+        "baseDamage": 11
+      },
+      {
+        "text": "Твои идеи просто великолепны!",
+        "category": "Обычная",
+        "difficulty": 1,
+        "intonationHint": "Восхищенно",
+        "baseDamage": 10
+      }
+    ],
+    "rewardCoins": 50,
+    "rewardExp": 100
+  },
+  {
+    "id": 2,
+    "name": "Испытание словом",
+    "description": "Проверьте свои навыки в более сложном испытании",
+    "boss": {
+      "name": "Средний Стив",
+      "imageUrl": "assets/images/intermediate.png",
+      "level": 2,
+      "difficultyMultiplier": 1.2,
+      "phrases": [
+        "Я уже кое-что умею!",
+        "Посмотрим, кто сильнее!",
+        "Готов к настоящему бою?"
+      ]
+    },
+    "availableCards": [
+      {
+        "text": "Это потрясающе!",
+        "category": "Редкая",
+        "difficulty": 2,
+        "intonationHint": "Восторженно",
+        "baseDamage": 10
+      },
+      {
+        "text": "Не может быть!",
+        "category": "Редкая",
+        "difficulty": 2,
+        "intonationHint": "Удивленно",
+        "baseDamage": 10
+      },
+      {
+        "text": "Я не согласен с этим.",
+        "category": "Редкая",
+        "difficulty": 2,
+        "intonationHint": "Уверенно, с отрицанием",
+        "baseDamage": 10
+      },
+      {
+        "text": "Знания - сила!",
+        "category": "Редкая",
+        "difficulty": 2,
+        "intonationHint": "Энергично",
+        "baseDamage": 15
+      },
+      {
+        "text": "Мой ум острее любого меча!",
+        "category": "Редкая",
+        "difficulty": 2,
+        "intonationHint": "Гордо",
+        "baseDamage": 15
+      },
+      {
+        "text": "За дружбу и приключения!",
+        "category": "Редкая",
+        "difficulty": 2,
+        "intonationHint": "Торжественно",
+        "baseDamage": 14
+      },
+      {
+        "text": "Мои знания растут с каждым днём!",
+        "category": "Редкая",
+        "difficulty": 2,
+        "intonationHint": "Гордо",
+        "baseDamage": 16
+      },
+      {
+        "text": "Твои идеи так же важны, как и мои!",
+        "category": "Редкая",
+        "difficulty": 2,
+        "intonationHint": "Уважительно",
+        "baseDamage": 14
+      },
+      {
+        "text": "Я решу любую задачу!",
+        "category": "Редкая",
+        "difficulty": 2,
+        "intonationHint": "Решительно",
+        "baseDamage": 16
+      },
+      {
+        "text": "Каждая ошибка - шаг к успеху!",
+        "category": "Редкая",
+        "difficulty": 2,
+        "intonationHint": "Мудро",
+        "baseDamage": 14
+      },
+      {
+        "text": "Мой голос - мой инструмент!",
+        "category": "Редкая",
+        "difficulty": 2,
+        "intonationHint": "Звонко",
+        "baseDamage": 16
+      },
+      {
+        "text": "Мои идеи изменят мир к лучшему!",
+        "category": "Редкая",
+        "difficulty": 2,
+        "intonationHint": "Мечтательно",
+        "baseDamage": 17
+      }
+    ],
+    "rewardCoins": 100,
+    "rewardExp": 200
+  },
+  {
+    "id": 3,
+    "name": "Мастер речи",
+    "description": "Сразитесь с настоящим мастером интонации",
+    "boss": {
+      "name": "Мастер Эхо",
+      "imageUrl": "assets/images/echo.png",
+      "level": 3,
+      "difficultyMultiplier": 1.5,
+      "phrases": [
+        "Я повторю это лучше тебя!",
+        "Эхо-о-о-о!",
+        "Твои слова возвращаются к тебе!"
+      ]
+    },
+    "availableCards": [
+      {
+        "text": "Невероятно, но факт!",
+        "category": "Эпическая",
+        "difficulty": 3,
+        "intonationHint": "С акцентом на 'невероятно'",
+        "baseDamage": 15
+      },
+      {
+        "text": "Что ты только что сказал?",
+        "category": "Эпическая",
+        "difficulty": 3,
+        "intonationHint": "С возмущением",
+        "baseDamage": 15
+      },
+      {
+        "text": "Я абсолютно уверен в этом!",
+        "category": "Эпическая",
+        "difficulty": 3,
+        "intonationHint": "С сильным убеждением",
+        "baseDamage": 15
+      },
+      {
+        "text": "Я могу всё преодолеть!",
+        "category": "Эпическая",
+        "difficulty": 3,
+        "intonationHint": "Уверенно",
+        "baseDamage": 20
+      },
+      {
+        "text": "Твоё будущее полно возможностей!",
+        "category": "Эпическая",
+        "difficulty": 3,
+        "intonationHint": "Вдохновляюще",
+        "baseDamage": 18
+      },
+      {
+        "text": "Я пришёл, я увидел, я научился!",
+        "category": "Эпическая",
+        "difficulty": 3,
+        "intonationHint": "Триумфально",
+        "baseDamage": 20
+      },
+      {
+        "text": "Моя фантазия безгранична!",
+        "category": "Эпическая",
+        "difficulty": 3,
+        "intonationHint": "Вдохновенно",
+        "baseDamage": 19
+      },
+      {
+        "text": "Сегодня ты узнаешь что-то удивительное!",
+        "category": "Эпическая",
+        "difficulty": 3,
+        "intonationHint": "Загадочно",
+        "baseDamage": 21
+      },
+      {
+        "text": "Я верю в свои силы!",
+        "category": "Эпическая",
+        "difficulty": 3,
+        "intonationHint": "Уверенно",
+        "baseDamage": 19
+      },
+      {
+        "text": "Ты удивишься своим возможностям!",
+        "category": "Эпическая",
+        "difficulty": 3,
+        "intonationHint": "Воодушевленно",
+        "baseDamage": 20
+      },
+      {
+        "text": "Сегодня я напишу новую главу своей истории!",
+        "category": "Эпическая",
+        "difficulty": 3,
+        "intonationHint": "Решительно",
+        "baseDamage": 20
+      },
+      {
+        "text": "Мои мечты становятся реальностью!",
+        "category": "Эпическая",
+        "difficulty": 3,
+        "intonationHint": "Вдохновенно",
+        "baseDamage": 21
+      }
+    ],
+    "rewardCoins": 200,
+    "rewardExp": 300
+  },
+  {
+    "id": 4,
+    "name": "Легендарное испытание",
+    "description": "Финальное испытание для настоящих мастеров слова",
+    "boss": {
+      "name": "Легендарный Лекс",
+      "imageUrl": "assets/images/legendary.png",
+      "level": 4,
+      "difficultyMultiplier": 2.0,
+      "phrases": [
+        "Я владею всеми словами мира!",
+        "Твой голос - ничто перед моим мастерством!",
+        "Покажи, достоин ли ты звания мастера!"
+      ]
+    },
+    "availableCards": [
+      {
+        "text": "Вместе мы сможем преодолеть любые препятствия!",
+        "category": "Легендарная",
+        "difficulty": 4,
+        "intonationHint": "Воодушевленно",
+        "baseDamage": 25
+      },
+      {
+        "text": "Моё имя войдёт в историю великих открытий!",
+        "category": "Легендарная",
+        "difficulty": 4,
+        "intonationHint": "Мечтательно",
+        "baseDamage": 22
+      },
+      {
+        "text": "О наших приключениях будут слагать легенды!",
+        "category": "Легендарная",
+        "difficulty": 4,
+        "intonationHint": "Торжественно",
+        "baseDamage": 24
+      },
+      {
+        "text": "Даже звёзды не предел для наших мечтаний!",
+        "category": "Легендарная",
+        "difficulty": 4,
+        "intonationHint": "Мечтательно",
+        "baseDamage": 23
+      },
+      {
+        "text": "Наша встреча изменит мир к лучшему!",
+        "category": "Легендарная",
+        "difficulty": 4,
+        "intonationHint": "Торжественно",
+        "baseDamage": 24
+      },
+      {
+        "text": "Я - воплощение твоих лучших надежд!",
+        "category": "Легендарная",
+        "difficulty": 4,
+        "intonationHint": "Воодушевленно",
+        "baseDamage": 25
+      },
+      {
+        "text": "Сегодня мы пишем новую страницу в истории человечества!",
+        "category": "Легендарная",
+        "difficulty": 4,
+        "intonationHint": "Торжественно",
+        "baseDamage": 26
+      },
+      {
+        "text": "Мой голос достигнет самых далёких звёзд!",
+        "category": "Легендарная",
+        "difficulty": 4,
+        "intonationHint": "Мощно",
+        "baseDamage": 24
+      },
+      {
+        "text": "Никто не устоит перед моей мощью!",
+        "category": "Легендарная",
+        "difficulty": 4,
+        "intonationHint": "Властно",
+        "baseDamage": 25
+      },
+      {
+        "text": "Мое имя станет твоим последним словом!",
+        "category": "Легендарная",
+        "difficulty": 4,
+        "intonationHint": "Драматично",
+        "baseDamage": 22
+      },
+      {
+        "text": "Легенды будут слагать о моей победе!",
+        "category": "Легендарная",
+        "difficulty": 4,
+        "intonationHint": "Эпично",
+        "baseDamage": 24
+      },
+      {
+        "text": "Я покорю вершины, о которых другие только мечтают!",
+        "category": "Легендарная",
+        "difficulty": 4,
+        "intonationHint": "Амбициозно",
+        "baseDamage": 26
+      }
+    ],
+    "rewardCoins": 300,
+    "rewardExp": 500
+  },
+  {
+    "id": 5,
+    "name": "Битва титанов",
+    "description": "Сразитесь с величайшим мастером слова всех времен",
+    "boss": {
+      "name": "Верховный Оратор",
+      "imageUrl": "assets/images/supreme.png",
+      "level": 5,
+      "difficultyMultiplier": 2.5,
+      "phrases": [
+        "Мои слова меняют реальность!",
+        "Я говорил с богами и демонами!",
+        "Твой голос - лишь шепот перед моим громом!"
+      ]
+    },
+    "availableCards": [
+      {
+        "text": "Я непобедим!",
+        "category": "Эпическая",
+        "difficulty": 3,
+        "intonationHint": "Громко и гордо",
+        "baseDamage": 20
+      },
+      {
+        "text": "Твоя судьба решена!",
+        "category": "Эпическая",
+        "difficulty": 3,
+        "intonationHint": "Зловеще",
+        "baseDamage": 18
+      },
+      {
+        "text": "Я пришел, я увидел, я победил!",
+        "category": "Эпическая",
+        "difficulty": 3,
+        "intonationHint": "Триумфально",
+        "baseDamage": 20
+      },
+      {
+        "text": "Сила в словах!",
+        "category": "Редкая",
+        "difficulty": 2,
+        "intonationHint": "Энергично",
+        "baseDamage": 15
+      },
+      {
+        "text": "Мой меч острее твоего!",
+        "category": "Редкая",
+        "difficulty": 2,
+        "intonationHint": "Насмешливо",
+        "baseDamage": 15
+      },
+      {
+        "text": "За честь и славу!",
+        "category": "Редкая",
+        "difficulty": 2,
+        "intonationHint": "Торжественно",
+        "baseDamage": 14
+      },
+      {
+        "text": "Мои навыки не знают равных!",
+        "category": "Редкая",
+        "difficulty": 2,
+        "intonationHint": "Самоуверенно",
+        "baseDamage": 16
+      },
+      {
+        "text": "Ты не первый, кто падет от моей руки!",
+        "category": "Редкая",
+        "difficulty": 2,
+        "intonationHint": "Зловеще",
+        "baseDamage": 17
+      },
+      {
+        "text": "Моя сила безгранична!",
+        "category": "Эпическая",
+        "difficulty": 3,
+        "intonationHint": "Мощно",
+        "baseDamage": 19
+      },
+      {
+        "text": "Сегодня ты познаешь истинную мощь!",
+        "category": "Эпическая",
+        "difficulty": 3,
+        "intonationHint": "Угрожающе",
+        "baseDamage": 21
+      },
+      {
+        "text": "Я сокрушу твою защиту!",
+        "category": "Редкая",
+        "difficulty": 2,
+        "intonationHint": "Агрессивно",
+        "baseDamage": 16
+      },
+      {
+        "text": "Мои слова острее любого клинка!",
+        "category": "Эпическая",
+        "difficulty": 3,
+        "intonationHint": "Гордо",
+        "baseDamage": 18
+      }
+    ],
+    "rewardCoins": 500,
+    "rewardExp": 1000
+  }
+]

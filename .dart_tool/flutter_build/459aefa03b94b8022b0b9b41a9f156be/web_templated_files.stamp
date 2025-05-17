@@ -1,0 +1,1 @@
+{"inputs":["D:\\speech_battle\\web\\*\\index.html","D:\\speech_battle\\web\\flutter_bootstrap.js","D:\\flutter\\bin\\internal\\engine.version"],"outputs":["D:\\speech_battle\\build\\web\\*\\index.html","D:\\speech_battle\\build\\web\\flutter_bootstrap.js"],"buildKey":"[{\"compileTarget\":\"dart2js\",\"renderer\":\"canvaskit\",\"mainJsPath\":\"main.dart.js\"}]"}
