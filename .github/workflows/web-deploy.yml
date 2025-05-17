@@ -2,7 +2,8 @@ name: Deploy Flutter Web to GitHub Pages
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master ]  # или main, в зависимости от вашей основной ветки
+
 jobs:
   build:
     runs-on: ubuntu-latest
