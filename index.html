@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/speech-battle/">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  
+  <!-- Рекомендуемый метатег для мобильных устройств -->
+  <meta name="mobile-web-app-capable" content="yes">
+  
+  <!-- Устаревший метатег для iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  
+  <!-- Другие метатеги -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Речевая битва">
+  
+  <!-- Разрешения для микрофона -->
+  <meta name="permissions-policy" content="microphone=*">
+  
+  <title>Речевая битва</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <!-- Этот скрипт устанавливает сервисный воркер -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=1056153871');
+      });
+    }
+  </script>
+  
+  <!-- Скрипт для проверки доступности микрофона -->
+  <script>
+    window.addEventListener('load', function() {
+      console.log('Проверка доступности микрофона...');
+      
+      if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+        navigator.mediaDevices.getUserMedia({ audio: true })
+          .then(function(stream) {
+            console.log('Микрофон доступен!');
+            stream.getTracks().forEach(track => track.stop());
+          })
+          .catch(function(err) {
+            console.error('Ошибка доступа к микрофону:', err);
+          });
+      } else {
+        console.error('getUserMedia не поддерживается в этом браузере');
+      }
+    });
+  </script>
+  
+  <!-- Основной скрипт Flutter -->
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
