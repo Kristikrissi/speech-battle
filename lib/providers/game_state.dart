@@ -131,9 +131,11 @@ class GameState extends ChangeNotifier {
 
       _speechService.resultStream.listen((result) {
         if (result.isFinal) {
-          _lastRecognizedText = result.text;
-          _interimRecognizedText = '';
-          _calculateAccuracy();
+          if (_lastRecognizedText != result.text) {
+            _lastRecognizedText = result.text;
+            _interimRecognizedText = '';
+            _calculateAccuracy();
+          }
         } else {
           _interimRecognizedText = result.text;
         }
@@ -797,6 +799,15 @@ class GameState extends ChangeNotifier {
       _checkAchievements();
     }
 
+    // Автоматически запускаем прослушивание для новой карточки с задержкой
+    if (_currentCardIndex < _cards.length - 1) {
+      Future.delayed(const Duration(milliseconds: 500), () {
+        if (!_isListening && _gameStatus == GameStatus.inProgress) {
+          setListening(true);
+        }
+      });
+    }
+
     notifyListeners();
   }
 
@@ -821,11 +832,11 @@ class GameState extends ChangeNotifier {
       _lastRecognizedText = '';
       _interimRecognizedText = '';
 
-      // Запускаем прослушивание с небольшой задержкой
-      await Future.delayed(const Duration(milliseconds: 100));
-      await _speechService
-          .stopListening(); // На всякий случай останавливаем предыдущее прослушивание
-      await Future.delayed(const Duration(milliseconds: 100));
+      // Останавливаем предыдущее прослушивание, если оно активно
+      if (_isListening) {
+        await _speechService.stopListening();
+        await Future.delayed(const Duration(milliseconds: 100));
+      }
       _speechService.startListening();
       debugPrint('Прослушивание запущено');
     } else {
